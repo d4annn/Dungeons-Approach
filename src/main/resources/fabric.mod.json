@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dungeonsapproach",
+  "version": "${version}",
+  "name": "Dungeons Approach",
+  "description": "Placeholder text",
+  "authors": [
+    "Dan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/d4annn",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/dungeonsapproach/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dan.Dungeons Approach.DungeonsApproach"
+    ]
+  },
+  "mixins": [
+    "dungeonsapproach.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2"
+  }
+}
